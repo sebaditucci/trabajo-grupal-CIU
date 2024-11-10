@@ -1,0 +1,21 @@
+.banner {
+    background-image: url(../assets/banner.jpg);
+    width: 100vw;
+    height: 20vw;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 1vw;
+    filter: blur(3px);
+}
+
+.titulo {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    left: 31vw;
+    text-align: center;
+    font-size: 5em;
+    text-shadow: 0 0 10px #000;
+    padding-top: 3.5vw;
+}
