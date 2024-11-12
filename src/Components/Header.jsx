@@ -1,13 +1,11 @@
 import React from 'react';
-import Menu from './Menu';
-import Banner from './Banner';
-
+import styles from '../Styles/header.module.css' 
 
 export default function Header() {
     return (
         <div class = "header">
-            <Banner />
-            <Menu />
+            <div className = {styles.banner}></div>
+            <h1 className = {styles.titulo}> Somos <br/> TechManu </h1>
         </div>
   )
 }

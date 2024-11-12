@@ -1,0 +1,13 @@
+.main {
+    width: 50%;
+    margin: auto;
+}
+
+.card {
+    border-bottom: solid #000 1px;  
+    padding: 20px;
+}
+
+.titulos {
+    margin-bottom: 30px;
+}
