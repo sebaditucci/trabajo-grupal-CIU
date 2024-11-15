@@ -3,8 +3,12 @@ import styles from '../Styles/main.module.css'
 
 export default function Main() {
   return (
-    <main className = {styles.main}>
-        <div id = "Historia" className = {styles.card}>
+    <main>
+        <section className = {styles.enlaces}>
+            <button className = {styles.enlace}>Productos</button>
+            <button className = {styles.enlace}>Fabricantes y Componentes</button>
+        </section>
+        <section id = "Historia" className = {styles.card}>
             <h2 className = {styles.titulos}>Nuestra Historia</h2>
             <p>
                 TechManu fue fundada en 1995 por un equipo de ingenieros y emprendedores apasionados por la tecnología y el potencial de la
@@ -25,15 +29,16 @@ export default function Main() {
                 compromiso con el medio ambiente, habiendo logrado reducir sus emisiones de carbono en un 70%. Hoy en día, la empresa no solo es un
                 líder en manufactura avanzada, sino que también es un ejemplo de sostenibilidad en la industria.
             </p>
-        </div>
-        <div id = "Filosofia" className = {styles.card}>
+        </section>
+        <div className = {styles.imagenFija}></div>
+        <section id = "Filosofia" className = {styles.card}>
             <h2 className = {styles.titulos}>Nuestra Filosofía</h2>
             <p>
                 La filosofía de TechManu se basa en tres pilares fundamentales: calidad, innovación y sostenibilidad. Estos valores han guiado a la
                 empresa desde sus primeros días y continúan siendo la base de todas sus decisiones estratégicas.
             </p>
             <ul>
-                <li>
+                <li className = {styles.li}>
                     <p>
                         <b>Calidad:</b> En TechManu, creemos que la calidad no es solo una característica del producto, sino un compromiso con
                         nuestros clientes. Cada pieza que producimos pasa por un riguroso control de calidad, garantizando que cumpla con los
@@ -41,7 +46,7 @@ export default function Main() {
                         clientes y socios comerciales.
                     </p>
                 </li>
-                <li>
+                <li className = {styles.li}>
                     <p>
                         <b>Innovación:</b> La industria de la manufactura está en constante evolución, y en TechManu estamos comprometidos a
                         liderar esa transformación. La innovación no solo se encuentra en nuestras tecnologías de producción, sino también en la
@@ -49,7 +54,7 @@ export default function Main() {
                         con el objetivo de ofrecer soluciones de manufactura de vanguardia que respondan a las necesidades cambiantes del mercado.
                     </p>
                 </li>
-                <li>
+                <li className = {styles.li}>
                     <p>
                         <b>Sostenibilidad:</b> TechManu está comprometida con el bienestar del planeta y de las generaciones futuras. Hemos
                         integrado prácticas sostenibles en cada etapa de nuestra cadena de producción, desde el uso de materiales reciclables
@@ -64,8 +69,7 @@ export default function Main() {
                 Miramos al futuro con la convicción de que la tecnología y la manufactura pueden coexistir con la sostenibilidad, y estamos
                 comprometidos a construir un mundo mejor a través de nuestras operaciones y productos.
             </p>
-        </div>
-
+        </section>
     </main>
   )
 }

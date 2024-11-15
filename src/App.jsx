@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import Header from './Components/Header'
 import Main from './Components/Main'
-import styles from './Styles/header.module.css'
+import styles from './Styles/app.module.css'
 
 function App() {
   return (
@@ -10,9 +10,9 @@ function App() {
       <nav className = {styles.menu}>
         <ul className = {styles.lista}>
             <li className = {styles.item} >Home</li>
-            <li className = {styles.item}>Contactanos</li>
-            <li className = {styles.item}>Ingresa</li>
-            <li className = {styles.item}>Registrate</li>
+            <li className = {styles.item}>Quienes Somos</li>
+            <li className = {styles.item}>Ubicación</li>
+            <li className = {styles.item}>Contacto</li>
         </ul>
       </nav>
       <Main />

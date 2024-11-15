@@ -1,54 +1,45 @@
 .banner {
-    background-image: url(../assets/banner.jpg);
-    width: 99vw;
+    filter: brightness(0.4);
+    width: 100vw;
+    object-fit:cover;
+    object-position: center;
     height: 20vw;
-    background-size: cover;
-    background-position: center;
     text-align: center;
-    font-size: 1vw;
-    filter: blur(3px);
 }
 
-.titulo {
-    margin: 0;
+.header {
+    position: relative;
+}
+
+.logo {
+    height: 24vw;
+    width: 24vw;
+    position:absolute;
+    bottom: -2.5vw;
+    left: 37vw;
+}
+
+.signin, .login {
     position: absolute;
+    margin-top: 10px;
+    background: none;
+    border: none;
     color: #fff;
-    left: 35.5vw;
-    top: 4vw;
-    text-align: center;
-    font-size: 5em;
-    font-weight: bold;
-    text-shadow: 0 0 10px #000;
-}
-
-.item {
-    padding: 20px;
-    letter-spacing: 2px;
     transition-duration: 0.5s;
 }
 
-.menu {
-    position: sticky;
+.signin {
+    right: 90px; 
     top: 0;
-    color: #fff;
-    box-shadow: 0 0 40px 0 #000;
-    background-color: #111;
-    margin-bottom: 30px;
 }
 
-.lista {
-    padding: 0;
-    margin: 0;
-    font-size: 15px;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-basis: 0;
-    flex-grow: 1;
-    width: 100%;
+.login {
+    top: 0;
+    right: 20px;
 }
 
-.item:hover {
+
+button:hover {
+    color: #6ac;
     cursor: pointer;
-    background-color: #222;
 }

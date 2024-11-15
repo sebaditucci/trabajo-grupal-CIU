@@ -5,6 +5,6 @@
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-html {
-  font-size: 1vw;
+#root{
+  background-color: #333;
 }
