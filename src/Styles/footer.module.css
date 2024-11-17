@@ -1,0 +1,14 @@
+.footer {
+    text-align: center;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-top: 90px;
+    margin-bottom: 0;
+}
+
+.nombre {
+    padding: 1px;
+}

@@ -1,42 +1,30 @@
-.card {  
-    width: 50%;
-    margin: auto;
-    color: #fff;
-    padding: 40px 0 40px 0;
-}
-
 .titulos {
     margin-bottom: 30px;
     text-align: center;
-    font-weight: bold;
-    color: #6ac;
 }
 
 .enlaces {
     display: flex;
-    width: 60%;
-    margin: auto;
     justify-content: space-evenly;
-    min-width: 500px;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     margin-top: 100px;
 }
 
-b {
+.span, .enlace, .li::marker, .titulos {
     color: #6ac;
+    font-weight: bold;
 }
 
 .enlace {
-    width: 35%;
+    width: 24%;
     padding: 20px;
     transition-property: background-color,color, transform;
     transition-duration: 0.5s;
     background-color: #000;
-    color: #6ac;
-    font-weight: bold;
     font-size: 18px;
     border-radius: 50px;
+    min-width: 200px;
     border: none;
     outline: none;
 }
@@ -60,6 +48,99 @@ b {
     margin: 30px 0 30px 0;
 }
 
-.li::marker {
-    color: #6ac;
+.wrapper {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.imagen {
+    height: 13vw;
+    width: 17vw;
+    min-width: 180px;
+    min-height: 130px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition-duration: 0.5s;
+}
+
+.imagenes {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 0;
+    flex-grow: 2;
+}
+
+.historiaContainer {
+    width: 100%;
+    padding: 40px;
+}
+
+.textoHistoria {
+    width: 50%;
+    margin: auto;
+    min-width: 300px;
+}
+
+.imagen:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.filosofiaContainer {  
+    width: 50%;
+    margin: auto;
+    min-width: 300px;
+    color: #fff;
+    padding: 40px 0 40px 0;
+}
+
+.video {
+    display: block;
+    width: 36vw;
+    height: 20.4vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    min-width: 300px;
+    min-height: 170px;
+    border-radius: 20px;
+}
+
+.contacto {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.maps {
+    width: 45vw;
+    height: 25vw;
+    min-width: 400px;
+    min-height: 250px;
+}
+
+.card {
+    background-color: #000;
+    color: #fff;
+    padding: 35px;
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+    margin-top: 50px;
+    transition-duration: 0.5s;
+}
+
+.card:hover {
+    box-shadow: 0 0 30px 0 #6ac;
+    transform: scale(1.1);
+    cursor: pointer;
 }
