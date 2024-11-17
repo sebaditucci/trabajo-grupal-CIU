@@ -3,49 +3,20 @@
     text-align: center;
 }
 
-.enlaces {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    margin-bottom: 70px;
-    margin-top: 100px;
-}
-
-.span, .enlace, .li::marker, .titulos {
+.span, .li::marker, .titulos {
     color: #6ac;
     font-weight: bold;
 }
 
-.enlace {
-    width: 24%;
-    padding: 20px;
-    transition-property: background-color,color, transform;
-    transition-duration: 0.5s;
-    background-color: #000;
-    font-size: 18px;
-    border-radius: 50px;
-    min-width: 200px;
-    border: none;
-    outline: none;
-}
-
-.enlace:hover{
-    background-color: #6ac;
-    color: #000;
-    transform: scale(1.1);
-    cursor: pointer;
-    box-shadow: 0 0 10px 0 #6ac;
-}
-
 .imagenFija {
-    background-image: url(../assets/imagenFija.jpg);
+    background-image: url(/src/assets/imagenFija.jpg);
     filter: brightness(0.5);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     width: 100%;
     height: 300px;
-    margin: 30px 0 30px 0;
+    margin: 50px 0 50px 0;
 }
 
 .wrapper {
@@ -80,6 +51,7 @@
 .historiaContainer {
     width: 100%;
     padding: 40px;
+    padding-top: 0;
 }
 
 .textoHistoria {
@@ -111,6 +83,15 @@
     min-width: 300px;
     min-height: 170px;
     border-radius: 20px;
+}
+
+.separador {
+    width: 80%;
+    height: 1.5px;
+    margin: auto;
+    background-color: #000;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .contacto {

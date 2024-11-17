@@ -1,10 +1,15 @@
 .item {
+    color: #6ac;
     padding: 20px;
     letter-spacing: 2px;
     transition-duration: 0.3s;
     font-size: 15px;
-    color: #fff;
     text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #6ac;
 }
 
 .menu {
@@ -12,6 +17,7 @@
     top: 0;
     box-shadow: 0 0 40px 0 #000;
     background-color: #000;
+    margin-bottom: 80px;
     z-index: 10;
 }
 
@@ -28,5 +34,5 @@
 .item:hover {
     cursor: pointer;
     color: #6ac;
-    text-shadow: 0 0 5px #6ac; 
+    text-shadow: 0 0 10px #6ac; 
 }
