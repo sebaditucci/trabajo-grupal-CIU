@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
-import Home from './Pages/Home/Components/Home'
-import Productos from './Pages/Productos/Components/Productos'
+import Home from './Pages/Home/Home'
+import Productos from './Pages/Productos/Productos'
 import { Navigate, Route, Routes } from 'react-router-dom';
 
 function App() {

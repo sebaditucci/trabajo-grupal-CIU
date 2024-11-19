@@ -9,7 +9,7 @@
 }
 
 .imagenFija {
-    background-image: url(/src/assets/imagenFija.jpg);
+    background-image: url(./Imagenes/imagenFija.jpg);
     filter: brightness(0.5);
     background-size: cover;
     background-attachment: fixed;
@@ -52,6 +52,7 @@
     width: 100%;
     padding: 40px;
     padding-top: 0;
+    margin-top: 70px;
 }
 
 .textoHistoria {
