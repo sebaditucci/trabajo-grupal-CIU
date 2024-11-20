@@ -9,7 +9,7 @@
 }
 
 .imagenFija {
-    background-image: url(./Imagenes/imagenFija.jpg);
+    background-image: url(../assets/imagenFija.jpg);
     filter: brightness(0.5);
     background-size: cover;
     background-attachment: fixed;
