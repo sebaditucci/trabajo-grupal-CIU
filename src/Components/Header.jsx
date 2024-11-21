@@ -6,8 +6,8 @@ import logo from '../assets/logo.png'
 export default function Header() {
     return (
         <div className = {styles.header}>
-            <img src = {banner} alt = "banner" title = "banner" className = {styles.banner}/>
-            <img src = {logo} alt = "logo TechManu" title = "logo TechManu" className = {styles.logo} />
+            <img src = {banner} alt = "Imagen de portada" title = "banner" className = {styles.banner} loading = "lazy"/>
+            <img src = {logo} alt = "logo de TechManu" title = "logo" className = {styles.logo} loading = "lazy"/>
             <button className = {styles.signin}>Sign in</button>
             <button className = {styles.login}>Log in</button>
         </div>

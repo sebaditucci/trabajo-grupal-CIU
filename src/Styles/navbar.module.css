@@ -1,5 +1,5 @@
 .item {
-    color: #6ac;
+    color: #6ce;
     padding: 20px;
     letter-spacing: 2px;
     transition-duration: 0.3s;
@@ -9,7 +9,7 @@
 
 .link {
     text-decoration: none;
-    color: #6ac;
+    color: #6ce;
 }
 
 .menu {
@@ -33,6 +33,6 @@
 
 .item:hover {
     cursor: pointer;
-    color: #6ac;
-    text-shadow: 0 0 10px #6ac; 
+    color: #6ce;
+    text-shadow: 0 0 10px #6ce; 
 }

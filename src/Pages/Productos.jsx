@@ -29,8 +29,7 @@ export default function Productos() {
         <div className = {styles.wrapper}>
         {posts.length > 0 ? (
          posts.map((producto) => (
-          <Card nombre={producto.nombre} 
-          descripcion={producto.descripcion} precio={producto.precio} id = {producto.id}/>
+          <Card key = {producto.id} producto = {producto}/>
         ))
       ) : (
         <p>Cargando productos...</p>

@@ -2,14 +2,17 @@ import React from 'react'
 import styles from '../Styles/card.module.css'
 import { Link } from 'react-router-dom'
 
-export default function Card({nombre,descripcion,precio, id}) {
+export default function Card({producto}) {
+  console.log('Producto recibido:', producto);
   return (
     <div className= {styles.card}>
-        <p className = {styles.titulo}>{nombre}</p>
-        <p className = {styles.texto}>{descripcion}</p>
-        <p className = {styles.texto}>${precio}</p>
-        <Link className = {styles.detalles} to = {`/${id}`}>Detalles</Link>
-        <Link className = {styles.agregar}>Agregar</Link>
+      <img src = {`../../public/${producto.pathImg}`} className = {styles.img} title = {`${producto.nombre}`}
+      alt = {`imagen de perfil de ${producto.nombre}`} loading = "lazy"/>
+      <p className = {styles.titulo}>{producto.nombre}</p>
+      <p className = {styles.texto}>{producto.descripcion}</p>
+      <p className = {styles.texto}>${producto.precio}</p>
+      <Link className = {styles.detalles} to = {`/${producto.id}`}>Detalles</Link>
+      <Link className = {styles.agregar}>Agregar</Link>
     </div>
-  )
+  ) 
 }

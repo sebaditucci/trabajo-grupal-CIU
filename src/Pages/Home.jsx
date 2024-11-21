@@ -18,8 +18,8 @@ export default function Home() {
                 <h2 className = {styles.titulos}>Nuestra Historia</h2>
                 <div className = {styles.wrapper}>
                     <div className = {styles.imagenes}>
-                        <img src = {imagen1} alt = "imagen del local" title = "imagen" className = {styles.imagen}/>
-                        <img src = {imagen2} alt = "imagen del local" title = "imagen" className = {styles.imagen} />
+                        <img src = {imagen1} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen}/>
+                        <img src = {imagen2} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen} />
                     </div>
                     <div className = {styles.textoHistoria}>
                         <p>
@@ -43,12 +43,12 @@ export default function Home() {
                         </p>
                     </div>    
                     <div className = {styles.imagenes}>
-                        <img src = {imagen3} alt = "imagen del local" title = "imagen" className = {styles.imagen}/>
-                        <img src = {imagen4} alt = "imagen del local" title = "imagen" className = {styles.imagen}/>
+                        <img src = {imagen3} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen}/>
+                        <img src = {imagen4} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen}/>
                     </div>
                 </div>
             </section>
-            <div className = {styles.imagenFija} alt = "imagen de la empresa" title = "imagen de la empresa"></div>
+            <div className = {styles.imagenFija} alt = "imagen de la empresa" title = "imagen de la empresa" loading = "lazy"></div>
             <section id = "filosofia" className = {styles.filosofiaContainer}>
                 <h2 className = {styles.titulos}>Nuestra Filosofía</h2>
                 <p>
@@ -88,17 +88,20 @@ export default function Home() {
                     comprometidos a construir un mundo mejor a través de nuestras operaciones y productos.
                 </p>
             </section>
-            <iframe className = {styles.video} src="https://www.youtube.com/embed/umvodG7HLnA?autoplay=1&loop=1&playlist=umvodG7HLnA&mute=1" title="Video de YouTube" frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+            <iframe className = {styles.video} src="https://www.youtube.com/embed/umvodG7HLnA?autoplay=1&loop=1&playlist=umvodG7HLnA&mute=1" title="Video de YouTube" 
+            loading = "lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
             <div className = {styles.separador}></div>
             <section className = {styles.contacto} id = "contacto">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210020.06909796575!2d-58.77939020658686!3d-34.66572301301528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7a73dcb009d%3A0xe8edde713613dc84!2sSODIMAC!5e0!3m2!1ses!2sar!4v1731813691040!5m2!1ses!2sar"
                 allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className = {styles.maps}></iframe>
                 <div className = {styles.card}>
                     <h3 className = {styles.titulos}>Contáctanos!</h3>
-                    <p><span className = {styles.span}>Correo: </span><a href = "contacto@tetchmanu.com">contacto@tetchmanu.com</a></p>
-                    <p><span className = {styles.span}>Teléfono: </span><a href = "tel:+54 9 11 2345 6789">+54 9 11 2345 6789</a></p>
-                    <p><span className = {styles.span}>Dirección: </span>Calle Ficticia 123, Ciudad de la Innovación.</p>
+                    <p><a href = "contacto@tetchmanu.com" className = {styles.link}>contacto@tetchmanu.com</a></p>
+                    <p><a href = "tel:+54 9 11 2345 6789" className = {styles.link}>+54 9 11 2345 6789</a></p>
+                    <p>Calle Ficticia 123, Ciudad de la Innovación.</p>
+                    <p>Lunes a Viernes: 9:30 AM - 6:45 PM</p>
+                    <p>Sábado: 10:00 AM - 2:00 PM</p>
+                    <p>Domingo: Cerrado</p>
                 </div>
             </section>
         </main>

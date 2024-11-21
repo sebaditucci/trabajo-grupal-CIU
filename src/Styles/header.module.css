@@ -24,7 +24,7 @@
     margin-top: 10px;
     background: none;
     border: none;
-    color: #6ac;
+    color: #6ce;
     transition-duration: 0.3s;
 }
 
@@ -40,6 +40,6 @@
 
 
 button:hover {
-    text-shadow: 0 0 10px #6ac; 
+    text-shadow: 0 0 10px #6ce; 
     cursor: pointer;
 }

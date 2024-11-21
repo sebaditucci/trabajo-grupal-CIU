@@ -1,0 +1,33 @@
+.titulo {
+    color: #6ce;
+    font-size: 30px;
+}
+
+.detalles {
+    margin-left: 30px; 
+    color: #fff;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 20px;
+    gap: 70px;
+}
+
+
+.img {
+    width: 430px;
+    height: 300px;
+    margin: 20px 30px 20px 0;
+    border-radius: 20px;
+}
+
+.nombre {
+    font-size: 30px;
+    color: #6ce;
+}
+
+.datos {
+    color: #fff;
+    width: 450px;
+    font-size: 20px;
+}
