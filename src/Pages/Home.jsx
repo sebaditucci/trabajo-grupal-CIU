@@ -18,8 +18,12 @@ export default function Home() {
                 <h2 className = {styles.titulos}>Nuestra Historia</h2>
                 <div className = {styles.wrapper}>
                     <div className = {styles.imagenes}>
-                        <img src = {imagen1} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen}/>
-                        <img src = {imagen2} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen} />
+                        <a href = "https://www.youtube.com/watch?v=umvodG7HLnA" target = "_blank">
+                            <img src = {imagen1} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen}/>
+                        </a>
+                        <a href = "https://www.youtube.com/watch?v=umvodG7HLnA" target = "_blank">
+                            <img src = {imagen2} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen} />
+                        </a>
                     </div>
                     <div className = {styles.textoHistoria}>
                         <p>
@@ -43,8 +47,12 @@ export default function Home() {
                         </p>
                     </div>    
                     <div className = {styles.imagenes}>
-                        <img src = {imagen3} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen}/>
-                        <img src = {imagen4} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen}/>
+                        <a href = "https://www.youtube.com/watch?v=umvodG7HLnA" target = "_blank">
+                            <img src = {imagen3} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen}/>
+                        </a>
+                        <a href = "https://www.youtube.com/watch?v=umvodG7HLnA" target = "_blank">
+                            <img src = {imagen4} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen}/>
+                        </a>
                     </div>
                 </div>
             </section>

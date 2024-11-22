@@ -6,6 +6,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import Detalles from './Pages/Detalles';
 
 function App() {
+
   return (
     <Routes>
       <Route path = '/' element = {<Home />}></Route>

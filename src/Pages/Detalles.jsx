@@ -38,20 +38,23 @@ export default function Detalles() {
       <div className = {styles.datos}>
         <img src = {`../../public/${productoC.pathImg}`} className = {styles.img} title = {`${productoC.nombre}`} 
         alt = {`imagen de un/a ${productoC.nombre}`} loading = "lazy"/>
-        <p className = {styles.nombre}>{productoC.nombre}</p>
-        <p>{productoC.descripcion}</p>
-        <p>${productoC.precio}</p>
+        <div className = {styles.info}>
+          <p className = {styles.nombre}>{productoC.nombre}</p>
+          <p>{productoC.descripcion}</p>
+          <p>${productoC.precio}</p>
+        </div>  
+        <button className = {styles.boton}>Agregar al carrito</button>
       </div>
       <div>
         <p className = {styles.titulo}>Fabricantes</p>
         {productoF.Fabricantes.map((fabricante) => (
-          <CardFabricante fabricante = {fabricante}/>
+          <CardFabricante fabricante = {fabricante} key = {fabricante.id}/>
         ))}
       </div>
       <div>
         <p className = {styles.titulo}>Componentes</p>
         {productoC.Componentes.map((componente) => (
-            <CardComponente componente = {componente}/>
+            <CardComponente componente = {componente} key = {componente.id}/>
           ))}
       </div>
     </div>

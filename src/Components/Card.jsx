@@ -3,7 +3,6 @@ import styles from '../Styles/card.module.css'
 import { Link } from 'react-router-dom'
 
 export default function Card({producto}) {
-  console.log('Producto recibido:', producto);
   return (
     <div className= {styles.card}>
       <img src = {`../../public/${producto.pathImg}`} className = {styles.img} title = {`${producto.nombre}`}

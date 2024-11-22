@@ -1,8 +1,8 @@
-.item {
+.item, .carrito {
     color: #6ce;
     padding: 20px;
     letter-spacing: 2px;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
     font-size: 15px;
     text-align: center;
 }
@@ -31,8 +31,10 @@
     width: 100%;
 }
 
-.item:hover {
+.item:hover, .carrito:hover {
     cursor: pointer;
     color: #6ce;
     text-shadow: 0 0 10px #6ce; 
+    box-shadow: 0 20px 35px -25px #6ce;
 }
+

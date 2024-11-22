@@ -1,6 +1,8 @@
 .titulo {
     color: #6ce;
     font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .detalles {
@@ -15,7 +17,7 @@
 
 
 .img {
-    width: 430px;
+    width: 400px;
     height: 300px;
     margin: 20px 30px 20px 0;
     border-radius: 20px;
@@ -30,4 +32,26 @@
     color: #fff;
     width: 450px;
     font-size: 20px;
+}
+
+.boton {
+    border: solid #6ce 1px;
+    color: #6ce;
+    background-color: #000;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+}
+
+.boton:hover {
+    background-color: #6ce;
+    color: #000;
+    border: solid #000 1.5px;
+    cursor: pointer;
+}
+
+.info {
+    padding-left: 7px;
+    margin-top: 20px;
 }

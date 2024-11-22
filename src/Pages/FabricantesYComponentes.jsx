@@ -41,13 +41,13 @@ export default function Fabricantes() {
       <h1 className = {styles.titulo}>Fabricantes</h1>
       <div className = {styles.wrapper}>
         {fabricantes.map((fabricante) => (
-          <CardFabricante fabricante = {fabricante} />
+          <CardFabricante fabricante = {fabricante} key = {fabricante.id}/>
         ))}
       </div>
       <h1 className = {styles.titulo}>Componentes</h1>
       <div className = {styles.wrapper}>
         {componentes.map((componente) => (
-          <CardComponente componente = {componente}/>
+          <CardComponente componente = {componente} key = {componente.id}/>
         ))}
       </div>
       <Footer/>

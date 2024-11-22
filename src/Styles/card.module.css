@@ -2,7 +2,7 @@
     background-color: #000;
     border-radius: 20px;
     width: 260px;
-    height: 400px;
+    height: 480px;
     font-size: 15px;
     margin-bottom: 40px;
     transition-duration: 0.5s;
@@ -55,13 +55,7 @@
     bottom: 0;
 }
 
-.agregar:hover {
-    text-shadow: none;
-    background-color: #6ce;
-    color: #000;
-}
-
-.detalles:hover {
+.agregar:hover, .detalles:hover {
     text-shadow: none;
     background-color: #6ce;
     color: #000;

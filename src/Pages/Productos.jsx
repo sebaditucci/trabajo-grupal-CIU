@@ -21,7 +21,7 @@ export default function Productos() {
   useEffect(() => {
     fetchData()
   },[])
-
+  
   return (
     <div>
         <Header/>
