@@ -45,17 +45,23 @@ export default function Detalles() {
         </div>  
         <button className = {styles.boton}>Agregar al carrito</button>
       </div>
-      <div>
-        <p className = {styles.titulo}>Fabricantes</p>
-        {productoF.Fabricantes.map((fabricante) => (
-          <CardFabricante fabricante = {fabricante} key = {fabricante.id}/>
-        ))}
-      </div>
-      <div>
-        <p className = {styles.titulo}>Componentes</p>
-        {productoC.Componentes.map((componente) => (
-            <CardComponente componente = {componente} key = {componente.id}/>
-          ))}
+      <div className = {styles.fabricantesYComponentes}>
+        <div className = {styles.conteiner}>
+          <p className = {styles.titulo}>Fabricantes</p>
+          <div className = {styles.cartas}>
+            {productoF.Fabricantes.map((fabricante) => (
+              <CardFabricante fabricante = {fabricante} key = {fabricante.id}/>
+            ))}
+          </div>
+        </div>
+        <div className = {styles.conteiner}>
+          <p className = {styles.titulo}>Componentes</p>
+          <div className = {styles.cartas}>
+            {productoC.Componentes.map((componente) => (
+                <CardComponente componente = {componente} key = {componente.id}/>
+              ))}
+          </div>
+        </div>
       </div>
     </div>
   )
