@@ -12,7 +12,7 @@ function App() {
       <Route path = '/' element = {<Home />}></Route>
       <Route path = '/productos' element = {<Productos />}></Route>
       <Route path = '/:id' element = {<Detalles/>}></Route>
-      <Route path = '/fabricantes_y_componentes' element = {<FabricantesYComponentes/>}></Route>
+      <Route path = '/fabricantes_componentes' element = {<FabricantesYComponentes/>}></Route>
       <Route path = '/*' element = {<Navigate to = '/'/>}></Route>
     </Routes>
   );

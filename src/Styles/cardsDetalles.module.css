@@ -3,8 +3,10 @@
     border-radius: 20px;
     display: inline-block;
     width: 300px;
+    padding-bottom: 20px;
     transition-duration: 0.5s;
     margin-bottom: 40px;
+    position: relative;
 }
 
 .card:hover {
@@ -20,10 +22,9 @@
 
 .nombre {
     font-size: 25px;
-    color: #6ce;
 }
 
-.texto, .nombre {
+.texto, .nombre, .link{
     margin-left: 5px;
 }
 
@@ -31,6 +32,7 @@
     padding: 10px;
 }
 
-.link {
+.link, .nombre {
     color: #6ce;
 }
+

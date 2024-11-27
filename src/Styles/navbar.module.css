@@ -1,4 +1,4 @@
-.item, .carrito {
+.item {
     color: #6ce;
     padding: 20px;
     letter-spacing: 2px;
@@ -17,8 +17,8 @@
     top: 0;
     box-shadow: 0 0 40px 0 #000;
     background-color: #000;
-    margin-bottom: 50px;
     z-index: 10;
+    margin-bottom: 50px;
 }
 
 .lista {
@@ -31,7 +31,7 @@
     width: 100%;
 }
 
-.item:hover, .carrito:hover {
+.item:hover{
     cursor: pointer;
     color: #6ce;
     text-shadow: 0 0 10px #6ce; 

@@ -9,7 +9,7 @@ export default function Navbar() {
         <ul className = {styles.lista}>
             <li className = {styles.item}><NavLink to = '/' className = {styles.link}>Home</NavLink></li>
             <li className = {styles.item}><NavLink to = '/productos' className = {styles.link} id = "productos">Productos</NavLink></li>
-            <li className = {styles.item}><NavLink to = '/fabricantes_y_componentes' className = {styles.link}>Fabricantes y Componentes</NavLink></li>
+            <li className = {styles.item}><NavLink to = '/fabricantes_componentes' className = {styles.link}>Fabricantes y Componentes</NavLink></li>
         </ul>    
     </nav>
   )

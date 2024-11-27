@@ -1,0 +1,50 @@
+.container {
+    width: 50vw;
+    height: 30vw;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    border: solid #6ce 3px;
+    z-index: 20;
+    color: #6ce;
+    position: fixed;
+    box-shadow: 0 0 50px 20px #000;
+    overflow-y: scroll;
+}
+
+.wrapper {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 15px;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.boton {
+    background-color: #000;
+    border: #6ce solid 2px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #6ce;
+    transition-duration: 0.3s;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+    background-color: #6ce;
+    color: #000;
+}
+
+.total {
+    position: sticky;
+    top: 0;
+    padding: 7px;
+}

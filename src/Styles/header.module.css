@@ -12,11 +12,11 @@
 }
 
 .logo {
-    height: 24vw;
-    width: 24vw;
+    height: 23vw;
+    width: 23vw;
     position:absolute;
-    bottom: -2.5vw;
-    left: 37vw;
+    bottom: -2.3vw;
+    left: 36.5vw;
 }
 
 .signin, .login {

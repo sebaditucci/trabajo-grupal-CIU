@@ -1,6 +1,5 @@
 import {React, useState, useEffect} from 'react'
-import { useParams } from 'react-router-dom'
-import {CardFabricante, CardComponente} from '../Components/CardsDetalles';
+import { useParams, Link } from 'react-router-dom'
 import styles from '../Styles/detalles.module.css'
 
 export default function Detalles() {
@@ -50,7 +49,7 @@ export default function Detalles() {
           <p className = {styles.titulo}>Fabricantes</p>
           <div className = {styles.cartas}>
             {productoF.Fabricantes.map((fabricante) => (
-              <CardFabricante fabricante = {fabricante} key = {fabricante.id}/>
+              <Link to = "/fabricantes_componentes#fabricantes"> <img src = {`../../public/${fabricante.pathImgPerfil}`} className = {styles.fabricante} title = {`${fabricante.nombre}`}/></Link>
             ))}
           </div>
         </div>
@@ -58,7 +57,7 @@ export default function Detalles() {
           <p className = {styles.titulo}>Componentes</p>
           <div className = {styles.cartas}>
             {productoC.Componentes.map((componente) => (
-                <CardComponente componente = {componente} key = {componente.id}/>
+                <Link to = "/fabricantes_componentes#componentes" className = {styles.componente}>{componente.nombre}</Link>
               ))}
           </div>
         </div>

@@ -38,14 +38,14 @@ export default function Fabricantes() {
     <div>
       <Header/>
       <Navbar/>
-      <h1 className = {styles.titulo}>Fabricantes</h1>
+      <h1 className = {styles.titulo} id = "fabricantes">Fabricantes</h1>
       <div className = {styles.wrapper}>
         {fabricantes.map((fabricante) => (
           <CardFabricante fabricante = {fabricante} key = {fabricante.id}/>
         ))}
       </div>
-      <h1 className = {styles.titulo}>Componentes</h1>
-      <div className = {styles.wrapper}>
+      <h1 className = {styles.titulo} id = "componentes">Componentes</h1>
+      <div className = {styles.wrapper}> 
         {componentes.map((componente) => (
           <CardComponente componente = {componente} key = {componente.id}/>
         ))}

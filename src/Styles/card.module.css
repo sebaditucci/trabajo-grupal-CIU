@@ -53,6 +53,7 @@
 
 .agregar {
     bottom: 0;
+    padding: 11px;
 }
 
 .agregar:hover, .detalles:hover {

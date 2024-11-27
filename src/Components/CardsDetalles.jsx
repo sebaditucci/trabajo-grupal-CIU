@@ -9,7 +9,7 @@ function CardFabricante({fabricante}) {
       <div className = {styles.container}>
         <p className = {styles.nombre}>{fabricante.nombre}</p>
         <p className = {styles.texto}>{fabricante.direccion}</p>
-        <p className = {styles.texto}><a href = {`tel:${fabricante.numeroContacto}`} className = {styles.link}>{fabricante.numeroContacto}</a></p>
+        <a href = {`tel:${fabricante.numeroContacto}`} className = {styles.link}>{fabricante.numeroContacto}</a>
       </div>
     </div>
   )

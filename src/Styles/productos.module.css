@@ -1,7 +1,34 @@
-.wrapper {
+.productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
+}
+
+.boton {
+    position: sticky;
+    bottom: 0;
+    background-color: #000;
+    color: #6ce;
+    border: solid #6ce 1px;
+    padding: 20px;
+    transition-duration: 0.3s;
+    box-shadow: 0 0 40px 0 #000;
+}
+
+.boton:hover {
+    color: #000;
+    background-color: #6ce;
+    cursor: pointer;
+}
+
+.brilloActivo {
+    filter: brightness(50%); 
+    transition: filter 0.3s ease;
+}
+
+.carrito {
+    z-index: 20;
+    filter: none;
 }
