@@ -1,12 +1,13 @@
 .footer {
+    margin-top: 50px;
     width: 100%;
     background-color: #000;
     color: #fff;
-    height: 280px;
+    height: 120px;
     padding-top: 50px;
     display: flex;
-    flex-direction: column;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .datos {
@@ -18,8 +19,17 @@
 }
 
 .link {
-    color: #6ce;
+    color:#6ce;
+
 }
+
+.link:hover{
+    cursor: pointer;
+    color: #6ce;
+    text-shadow: 0 0 10px #6ce; 
+    box-shadow: 20px 100px 35px 20px #6ce;
+    }
+
 
 .nombre {
     margin: 0;

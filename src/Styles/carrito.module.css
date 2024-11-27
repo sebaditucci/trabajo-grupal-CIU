@@ -11,6 +11,8 @@
     position: fixed;
     box-shadow: 0 0 50px 20px #000;
     overflow-y: scroll;
+    min-width: 400px;
+    min-height:400px ;
 }
 
 .wrapper {
@@ -47,4 +49,10 @@
     position: sticky;
     top: 0;
     padding: 7px;
+}
+
+.logo{
+    width:100px;
+    height: 100px;
+    align-items: center;
 }
