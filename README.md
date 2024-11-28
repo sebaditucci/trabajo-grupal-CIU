@@ -1,8 +1,11 @@
-# React + Vite
+# Sitio Web TechManu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web desarrollada en React que permite a los usuarios visualizar el catálogo de productos de una empresa de manufactura llamada TechManu. La aplicación consume una API de backend para mostrar información sobre productos, fabricantes y componentes.
 
-Currently, two official plugins are available:
+Para correr la aplicación hay que clonar el repositorio y en la terminal ejecutar los comandos `npm install` y `npm run dev`. Al mismo tiempo hay que clonar el backend de la aplicacion alojado en el siguiente repositorio: https://github.com/CIU-UnaHur/tp-backend y ejecutar los comandos `npm i` y `npm start`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Integrantes:
+- Sebastián Di Tucci
+- Rodrigo Sebok
+- Magalí Seoane
+- Franco Trautweiler
