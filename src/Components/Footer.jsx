@@ -17,8 +17,8 @@ export default function Footer() {
             <a href = "mailto:magalielizabeth.seoane@estudiantes.unahur.edu.ar" target = "_blank" className = {styles.link} title = "link al mail">magalielizabeth.seoane@estudiantes.unahur.edu.ar</a>
         </div>
         <div className = {styles.datos}>
-          <p className = {styles.nombre}>Franco Trautweiler</p>
-          <a href = "mailto:francotraut9@gmail.com" target = "_blank" className = {styles.link} title = "link al mail">francotraut9@gmail.com</a>
+            <p className = {styles.nombre}>Franco Trautweiler</p>
+            <a href = "mailto:francotraut9@gmail.com" target = "_blank" className = {styles.link} title = "link al mail">francotraut9@gmail.com</a>
         </div>
     </div>
   )
