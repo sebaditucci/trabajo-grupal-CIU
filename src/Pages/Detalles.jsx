@@ -42,14 +42,13 @@ export default function Detalles() {
           <p>{productoC.descripcion}</p>
           <p>${productoC.precio}</p>
         </div>  
-        <button className = {styles.boton}>Agregar al carrito</button>
       </div>
       <div className = {styles.fabricantesYComponentes}>
         <div className = {styles.conteiner}>
           <p className = {styles.titulo}>Fabricantes</p>
           <div className = {styles.cartas}>
             {productoF.Fabricantes.map((fabricante) => (
-              <Link to = "/fabricantes_componentes#fabricantes"> <img src = {`../../public/${fabricante.pathImgPerfil}`} className = {styles.fabricante} title = {`${fabricante.nombre}`}/></Link>
+              <Link to = "/fabricantes_componentes#fabricantes"> <img src = {`../../public/${fabricante.pathImgPerfil}`} className = {styles.fabricante} title = {`Link a ${fabricante.nombre}`}/></Link>
             ))}
           </div>
         </div>
@@ -57,7 +56,7 @@ export default function Detalles() {
           <p className = {styles.titulo}>Componentes</p>
           <div className = {styles.cartas}>
             {productoC.Componentes.map((componente) => (
-                <Link to = "/fabricantes_componentes#componentes" className = {styles.componente}>{componente.nombre}</Link>
+                <Link to = "/fabricantes_componentes#componentes" className = {styles.componente} title = {`Link a ${componente.nombre}`}>{componente.nombre}</Link>
               ))}
           </div>
         </div>

@@ -10,7 +10,7 @@ export default function Card({producto, agregar}) {
       <p className = {styles.titulo}>{producto.nombre}</p>
       <p className = {styles.texto}>{producto.descripcion}</p>
       <p className = {styles.texto}>${producto.precio}</p>
-      <Link className = {styles.detalles} to = {`/${producto.id}`}>Detalles</Link>
+      <Link className = {styles.detalles} to = {`/${producto.id}`} title = {`Link a detalles de ${producto.nombre}`}>Detalles</Link>
       <button className = {styles.agregar} onClick = {agregar}>Agregar</button>
     </div>
   ) 

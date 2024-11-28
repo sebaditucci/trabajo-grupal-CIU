@@ -21,7 +21,7 @@ export default function Home() {
                         <a href = "https://www.youtube.com/watch?v=umvodG7HLnA" target = "_blank">
                             <img src = {imagen1} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen}/>
                         </a>
-                        <a href = "https://www.youtube.com/watch?v=umvodG7HLnA" target = "_blank">
+                        <a href = "https://www.youtube.com/watch?v=8BjDNGvP7Iw" target = "_blank">
                             <img src = {imagen2} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen} />
                         </a>
                     </div>
@@ -47,10 +47,10 @@ export default function Home() {
                         </p>
                     </div>    
                     <div className = {styles.imagenes}>
-                        <a href = "https://www.youtube.com/watch?v=umvodG7HLnA" target = "_blank">
+                        <a href = "https://www.youtube.com/watch?v=vNYdHCp7qZ0" target = "_blank">
                             <img src = {imagen3} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen}/>
                         </a>
-                        <a href = "https://www.youtube.com/watch?v=umvodG7HLnA" target = "_blank">
+                        <a href = "https://www.youtube.com/watch?v=JYZOMbjRYts" target = "_blank">
                             <img src = {imagen4} alt = "imagen del local" title = "imagen del local" loading = "lazy" className = {styles.imagen}/>
                         </a>
                     </div>
@@ -104,8 +104,8 @@ export default function Home() {
                 allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className = {styles.maps}></iframe>
                 <div className = {styles.card}>
                     <h3 className = {styles.titulos}>Contáctanos!</h3>
-                    <p><a href = "contacto@tetchmanu.com" className = {styles.link}>contacto@tetchmanu.com</a></p>
-                    <p><a href = "tel:+54 9 11 2345 6789" className = {styles.link}>+54 9 11 2345 6789</a></p>
+                    <p><a href = "mailto:contacto@tetchmanu.com" className = {styles.link} title = "link a nuestro mail">contacto@tetchmanu.com</a></p>
+                    <p><a href = "tel:+54 9 11 2345 6789" className = {styles.link} title = "link a nuestro teléfono">+54 9 11 2345 6789</a></p>
                     <p>Calle Ficticia 123, Ciudad de la Innovación.</p>
                     <p>Lunes a Viernes: 9:30 AM - 6:45 PM</p>
                     <p>Sábado: 10:00 AM - 2:00 PM</p>

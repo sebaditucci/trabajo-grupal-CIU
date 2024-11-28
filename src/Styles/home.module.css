@@ -97,6 +97,7 @@
 .contacto {
     display: flex;
     margin-top: 70px;
+    margin-bottom: 70px;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
